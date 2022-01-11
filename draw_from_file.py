@@ -23,4 +23,4 @@ def draw_from_file(filename):
             radius_growth = float(rows[3])
             pen_weight = int(rows[4])
             draw_spiral(colour, arc, radius, radius_growth, pen_weight)
-draw_from_file("spiral.txt")
+
